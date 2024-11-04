@@ -18,8 +18,18 @@ public class HomePage {
 
     // Locators:
 
-    @FindBy(linkText =  "Mac")
+    @FindBy(css =  ".dropdown-toggle.remove-click-mobile[href='/details/categoria-mac']")
     WebElement textMac;
+
+    @FindBy(css = ".dropdown-toggle.remove-click-mobile[href='/details/categoria-ipad']")
+    WebElement textIpad;
+
+    @FindBy(css = ".dropdown-toggle.remove-click-mobile[href='/details/categoria-iphone']")
+    WebElement textIphone;
+
+    @FindBy(css = ".dropdown-toggle.remove-click-mobile[href='/details/categoria-watch']")
+    WebElement textWatch;
+
 
     //Constructor:
     public HomePage(WebDriver driver){
@@ -28,8 +38,20 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    public void goMacCategory(){
+    public void clickMacCategory(){
         textMac.click();
+    }
+
+    public void clickIpadCategory(){
+        textIpad.click();
+    }
+
+    public void clickIphoneCategory(){
+        textIphone.click();
+    }
+
+    public void clickWatchCategory(){
+        textWatch.click();
     }
 
 
