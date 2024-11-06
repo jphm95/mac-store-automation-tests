@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c37ba8-9e73-4530-b925-461754f70f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/AppleCarePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/ExtraProductsModalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/IpadPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/IphonePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/PurchaseButtonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/PurchaseModalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/WatchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIWatch10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIpadAir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIphone16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/macstore/utils/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/pages/MacM3Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/pages/MacPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/MacPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyMacbookM3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyMacbookM3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/pages/IphonePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/IphonePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/pages/WatchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/pages/WatchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIWatch10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIWatch10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIphone16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/macstore/tests/TestBuyIphone16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +39,9 @@
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.TestBuyIWatch10.executor": "Run",
     "TestNG.TestBuyIpadAir.executor": "Run",
+    "TestNG.TestBuyIphone16.executor": "Run",
     "TestNG.TestBuyMacbookM3.addMacToCart.executor": "Run",
     "TestNG.TestBuyMacbookM3.closeExtraProductModal.executor": "Run",
     "TestNG.TestBuyMacbookM3.executor": "Run",
@@ -59,7 +50,24 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestBuyMacbookM3">
+  <component name="RunManager" selected="TestNG.TestBuyIWatch10">
+    <configuration name="TestBuyIWatch10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MacStore_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.macstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.macstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.macstore.tests.TestBuyIWatch10" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestBuyIpadAir" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MacStore_Test" />
       <extension name="coverage">
@@ -70,6 +78,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.macstore.tests" />
       <option name="MAIN_CLASS_NAME" value="com.macstore.tests.TestBuyIpadAir" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBuyIphone16" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MacStore_Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.macstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.macstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.macstore.tests.TestBuyIphone16" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -112,49 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBuyMacbookM3.closeExtraProductModal" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MacStore_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.macstore.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.macstore.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.macstore.tests.TestBuyMacbookM3" />
-      <option name="METHOD_NAME" value="closeExtraProductModal" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBuyMacbookM3.selectMacM3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MacStore_Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.macstore.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.macstore.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.macstore.tests.TestBuyMacbookM3" />
-      <option name="METHOD_NAME" value="selectMacM3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestBuyIWatch10" />
+        <item itemvalue="TestNG.TestBuyIphone16" />
         <item itemvalue="TestNG.TestBuyMacbookM3" />
         <item itemvalue="TestNG.TestBuyIpadAir" />
         <item itemvalue="TestNG.TestBuyMacbookM3.addMacToCart" />
-        <item itemvalue="TestNG.TestBuyMacbookM3.closeExtraProductModal" />
-        <item itemvalue="TestNG.TestBuyMacbookM3.selectMacM3" />
       </list>
     </recent_temporary>
   </component>
